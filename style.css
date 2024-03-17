@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff9db !important;
+}
+
+.container {
+  margin: 50 auto;
+  max-width: 1200px;
+  padding: 50 10px;
+}
+
+.person {
+  margin-bottom: 10px;
+  border: solid black 3px;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.person:first-child {
+  margin-top: 20px;
+}
+
+.person .name {
+  font-weight: bold;
+}
+
+.person .phone {
+  margin-left: 30px;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contactList button {
+  border-radius: 10px;
+  padding: 2px 5px;
+  background-color: #2f9e44;
+  transition: all 1.5s;
+}
+
+#contactList button:hover {
+  background-color: #40c057;
+}
+
+#contactList div {
+  background-color: #ffe8cc;
+}
